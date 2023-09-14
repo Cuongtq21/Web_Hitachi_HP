@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Đăng Ký - Điện Lạnh Hitachi</title>
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/icon/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+    <div class="nav-1 p-3 text-center border-bottom">
+      <div class="container">
+        <div class="row gy-3">
+          <!-- Left elements -->
+          <div class="col-lg-3 col-sm-4 col-4">
+            <a href="" target="_blank" class="title float-start">
+              Cửa Hàng Điện Lạnh <p class="animation-blink">Hitachi</p>
+            </a>
+          </div>
+          <!-- Left elements -->
+  
+          <!-- Center elements -->
+          <div class="order-lg-last col-lg-4 col-sm-8 col-8">
+            <div class="d-flex float-end">
+              <a href="login.html" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"><i class="bi bi-person-fill me-1"></i><p class="d-none d-md-block mb-0">Đăng Nhập</p> </a>
+              <a href="#" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"><i class="bi bi-heart me-1"></i><p class="d-none d-md-block mb-0">Yêu Thích</p> </a>
+              <a href="checkout.html" class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-controls="cartOffcanvas"><i class="bi bi-cart me-1"></i><p class="d-none d-md-block mb-0">Giỏ Hàng</p> </a>
+            </div>
+          </div>
+          <!-- Center elements -->
+  
+          <!-- Right elements -->
+          <div class="col-lg-5 col-md-12 col-12">
+              <div class="input-group">
+                  <input type="text" class="form-control" aria-describedby="basic-addon2">
+                  <button class="btn btn-outline-dark">Tìm Kiếm</button>
+              </div>
+          </div>
+          <!-- Right elements -->
+        </div>
+      </div>
+  </div>
+  <div class="offcanvas offcanvas-end" style="background-color: rgba(38, 66, 90, 1);" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="cartOffcanvasLabel">Giỏ Hàng</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Đóng"></button>
+      </div>
+      <div class="offcanvas-body">
+          <div class="content-td pt-2 pb-2">
+            <div class="card mb-3">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex flex-row align-items-center">
+                    <div>
+                      <img src="img/may-lanh-hitachi-air-home-1.jpg" class="img-fluid rounded-3" alt="Shopping item" style="width: 65px;">
+                    </div>
+                    <div class="ms-3">
+                      <h5>Điều Hòa Hitachi</h5>
+                      <p class="small mb-0">4 Công Suất, 1HP</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row align-items-center">
+                    <div style="width: 50px;">
+                      <h5 class="fw-normal mb-0">2</h5>
+                    </div>
+                    <div style="width: 80px;">
+                      <h5 class="mb-0">$900</h5>
+                    </div>
+                    <a href="#!" style="color: rgba(38, 66, 90, 1) ;"><i class="bi bi-trash"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="offcanvas-footer text-center pb-2">
+          <button class="btn" style="background-color: rgba(134, 171, 207, 1); color: white;" type="button"><a href="checkout.html" style="text-decoration: none; color: white;">Chi Tiết Giỏ Hàng</a></button>
+      </div>
+  </div>
+  <div class="container-fluid bg-light sticky-top">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="toggler-icon top-bar"></span>
+                  <span class="toggler-icon middle-bar"></span>
+                  <span class="toggler-icon bottom-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="index.html">Trang Chủ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="introduction.html">Giới Thiệu</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Sản Phẩm
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="product.html">Điều Hòa</a></li>
+                              <li><a class="dropdown-item" href="product.html">Tủ Đông</a></li>
+                              <li><a class="dropdown-item" href="product.html">Tủ Lạnh</a></li>
+                              <li><a class="dropdown-item" href="product.html">Tủ Mát</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="warranty.html">Bảo Hành</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="consumption.html">Tư Vấn Tiêu Dùng</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Liên Hệ</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </div>	
+
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="breadcrumb-list">
+                    <li>
+                      <a href="index.html" title="Back to the home page">Trang Chủ</a>
+                    </li>
+                    <li class="breadcrumb-item"></li>
+                    <li>
+                        <a href="register.html" class="active" title="Back to the home page">Đăng Ký</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-light">
+    <div class="container bg-white">
+        <section class="vh-60 border mt-2 mb-2" style="border: 1px solid;">
+            <h3 class="text-center p-2">Đăng Ký</h3>
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                  <form>
+                    <div class="d-flex flex-row align-items-center mb-3">
+                        <i class="bi bi-user bi-lg me-3 bi-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example1c">Họ Và Tên</label>
+                            <input type="text" id="form3Example1c" class="form-control" />
+                        </div>
+                      </div>
+    
+                      <div class="d-flex flex-row align-items-center mb-3">
+                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example3c">Email</label>
+                            <input type="email" id="form3Example3c" class="form-control" />
+                        </div>
+                      </div>
+    
+                      <div class="d-flex flex-row align-items-center mb-3">
+                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example4c">Mật Khẩu</label>
+                            <input type="password" id="form3Example4c" class="form-control" />
+                        </div>
+                      </div>
+    
+                      <div class="d-flex flex-row align-items-center mb-3">
+                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                        <div class="form-outline flex-fill mb-0">
+                            <label class="form-label" for="form3Example4cd">Nhập Lại Mật Khẩu</label>
+                            <input type="password" id="form3Example4cd" class="form-control" />
+                        </div>
+                      </div>
+    
+                      <div class="form-check d-flex justify-content-center mb-3">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                        <label class="form-check-label" for="form2Example3">
+                          Tôi Đồng Ý Với Các <a href="#!">Điều Khoản</a>
+                        </label>
+                      </div>
+                    <div class="text-center">
+                      <button type="button" class="btn btn-primary btn-lg" style="padding-left: 2.0rem; padding-right: 2.0rem;">Đăng Ký</button>
+                      <p class="small fw-bold mt-2 pt-1 mb-2">Bạn Đã Có Tài Khoản? <a href="login.html" class="link-danger">Đăng Nhập</a></p>
+                    </div>
+                    <div class="d-flex mb-3 d-flex justify-content-center">
+                        <p class="lead fw-normal me-3 mb-0">Đăng Ký Với</p>
+                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                          <i class="bi bi-facebook"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                          <i class="bi bi-twitter"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-floating mx-1">
+                          <i class="bi bi-linkedin"></i>
+                        </button>
+                      </div>
+                  </form>
+                </div>
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="img/8610496_5965.png" class="img-fluid" alt="Sample image">
+                </div>
+              </div> 
+        </section>          
+    </div>
+</div>
+</main>
+<footer class="text-center text-lg-start text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+      <span>Kết Nối Với Điện Lạnh Hitachi qua các liên kết:</span>
+  </div>
+  <!-- Left -->
+
+  <!-- Right -->
+  <div>
+      <a href="" class="me-4 link-secondary">
+          <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+          <i class="bi bi-twitter"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+          <i class="bi bi-google"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+          <i class="bi bi-instagram"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+          <i class="bi bi-linkedin"></i>
+      </a>
+  </div>
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="text-white">
+  <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Điện Lạnh Hitachi Hải Phòng
+          </h6>
+          <p>
+          Viết content tại đây
+          </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+          Sản Phẩm
+          </h6>
+          <p>
+          <a href="product.html" class="text-reset">Điều Hòa</a>
+          </p>
+          <p>
+          <a href="product.html" class="text-reset">Tủ Lạnh</a>
+          </p>
+          <p>
+          <a href="product.html" class="text-reset">Máy Giặt</a>
+          </p>
+          <p>
+          <a href="product.html" class="text-reset">Bình Nóng Lạnh</a>
+          </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+          Chăm Sóc Khách Hàng
+          </h6>
+          <p>
+          <a href="tieudung.html" class="text-reset">Hướng Dẫn TIêu Dùng</a>
+          </p>
+          <p>
+          <a href="lienhe.html" class="text-reset">Liên Hệ</a>
+          </p>
+          <p>
+          <a href="baohanh.html" class="text-reset">Chỉnh Sách Bảo Hành</a>
+          </p>
+          <p>
+          <a href="#!" class="text-reset">Trợ Giúp</a>
+          </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Liên Hệ Với Chúng Tôi</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i>Hitachi Hải Phòng</p>
+          <p>
+          <i class="fas fa-envelope me-3 text-secondary"></i>
+          Hitachihp@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i>Số Điện Thoại Di Động</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i>Số Điện Thoại</p>
+      </div>
+      <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+  </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 text-white" style="background-color: rgba(38, 66, 90, 1);">
+  © 2023 Copyright:
+  <a class="text-reset fw-bold" href="#">Điện Lạnh Hitachi</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Link JavaScript Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+</html>
